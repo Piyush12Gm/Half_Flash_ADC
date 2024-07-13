@@ -1,0 +1,15 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Time: 0ns, analog_in: 00000000, digital_out: 00000000
+Time: 30ns, analog_in: 00001111, digital_out: 00000000
+Time: 40ns, analog_in: 00111100, digital_out: 00000000
+Time: 45ns, analog_in: 00111100, digital_out: 00001111
+Time: 50ns, analog_in: 01111111, digital_out: 00001111
+Time: 55ns, analog_in: 01111111, digital_out: 00111111
+Time: 60ns, analog_in: 10101010, digital_out: 00111111
+Time: 65ns, analog_in: 10101010, digital_out: 01111111
+Time: 70ns, analog_in: 11110000, digital_out: 01111111
+Time: 75ns, analog_in: 11110000, digital_out: 10101111
+Time: 80ns, analog_in: 11111111, digital_out: 10101111
+Time: 85ns, analog_in: 11111111, digital_out: 11111111
+$finish called at time : 90 ns : File "C:/Users/anura/Half_Flash_8Bit_ADC/Half_Flash_8Bit_ADC.srcs/sim_1/new/tb.v" Line 63
