@@ -1,0 +1,12 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+At time                    0, analog_in = 00, digital_out = 00
+At time                20000, analog_in = 0f, digital_out = 00
+At time                25000, analog_in = 0f, digital_out = 0f
+At time                30000, analog_in = f0, digital_out = 0f
+At time                35000, analog_in = f0, digital_out = f0
+At time                40000, analog_in = aa, digital_out = f0
+At time                45000, analog_in = aa, digital_out = aa
+At time                50000, analog_in = 55, digital_out = aa
+At time                55000, analog_in = 55, digital_out = 55
+$finish called at time : 60 ns : File "C:/Users/anura/ADC_8Bits/ADC_8Bits.srcs/sim_1/new/tb.v" Line 59
