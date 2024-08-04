@@ -1,10 +1,10 @@
 # Half_Flash_ADC
--> It has less complexity in circuit to Flash ADC. 
--> Number of Comparators in Half Flash ADC is very less compared to Flash ADC.
--> Speed of Half Flash ADC is less than Flash ADC.
--> In Flash ADC of 8 Bits We need((2^n-1) ,Here n =8) = 255 Comparators.
--> In Half Flash ADC of 8 Bits , we need (using 2 for Bits ADC 2*(2^n-1), Here n =4) = 30 Comparators.
--> But we compromise speed of Flash ADC by Half Flash ADC.
+- `It has less complexity in circuit to Flash ADC. 
+- `Number of Comparators in Half Flash ADC is very less compared to Flash ADC.
+- `Speed of Half Flash ADC is less than Flash ADC.
+- `In Flash ADC of 8 Bits We need((2^n-1) ,Here n =8) = 255 Comparators.
+- `In Half Flash ADC of 8 Bits , we need (using 2 for Bits ADC 2*(2^n-1), Here n =4) = 30 Comparators.
+- `But we compromise speed of Flash ADC by Half Flash ADC.
 
 ### Explanation
 1. **Input/Output**:
