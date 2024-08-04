@@ -1,5 +1,10 @@
 # Half_Flash_ADC
-
+-> It has less complexity in circuit to Flash ADC. 
+-> Number of Comparators in Half Flash ADC is very less compared to Flash ADC.
+-> Speed of Half Flash ADC is less than Flash ADC.
+-> In Flash ADC of 8 Bits We need((2^n-1) ,Here n =8) = 255 Comparators.
+-> In Half Flash ADC of 8 Bits , we need (using 2 for Bits ADC 2*(2^n-1), Here n =4) = 30 Comparators.
+-> But we compromise speed of Flash ADC by Half Flash ADC.
 
 ### Explanation
 1. **Input/Output**:
@@ -28,7 +33,7 @@
 4. **LSB Flash Comparators**   - 16 comparators (`lsb_compare[15:0]`) compare `analog_in` against 16 different threshold levels based on the `msb` value and the lower 4 bits (0 to 15).
 5. **LSB Encoder**   - Encodes the results of the LSB comparators into a 4-bit `lsb` value, which represents the least significant 4 bits of the digital output.
 6. **Digital Output**   - Combines the `msb` and `lsb` to form the final 8-bit `digital_out`.
-
+![Screenshot (178)](https://github.com/user-attachments/assets/6b3caaef-dc08-4b49-9cf8-3c62f82855a8)
 
 ###  TEST BENCH Explanation:
 1. **Clock Generation**: - A clock signal `clk` is generated with a period of 10 ns (100 MHz).
@@ -39,6 +44,8 @@
    - The half-flash ADC module `uut` (unit under test) is instantiated with the test bench signals connected to the module ports.
 5. **Monitor the Output**:
    - The output `digital_out` is monitored and printed at each simulation time step to observe the conversion results.
+     ![Screenshot (179)](https://github.com/user-attachments/assets/43d5ca4b-7ffb-485c-9c32-5383d09d87d2)
+
 
 ### Running the Simulation:
 1. Save the test bench code to a file named `tb.v`.
